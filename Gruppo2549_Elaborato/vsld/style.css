@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;700;900');
+* {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      font-size: inherit;
+      border: none;
+}
+html {
+      color: #D0D0D0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      background-color: #1C1C1C;
+      padding: 40px;
+}
+body {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px;
+      overflow-y: scroll;
+}
+body, div, table, hr {
+      border: 1px solid #303030;
+}
+div {
+      padding: 15px;
+}
+table {
+      border-spacing: 2px;
+      padding: 10px;
+}
+th, td {
+      padding: 5px;
+      min-width: 32px;
+      min-height: 32px;
+}
+tr.form td {
+      padding: 0;
+}
+td.center {
+      text-align: center;
+}
+div.boxed, div.box-simple {
+      padding: 5px 7px;
+      display: inline;
+}
+ul, ol {
+      padding-left: 40px;
+      padding-top: 5px;
+}
+td select, td input {
+      margin: 0;
+}
+.code, .boxed {
+      font-family: 'Roboto Mono';
+}
+section {
+      margin-bottom: 20px;
+}
+section.reverse {
+      margin-bottom: 0;
+      margin-top: 20px;
+}
+h1, h2, h3, th, b {
+      font-weight: 700;
+}
+h1 {
+      color: #93C572;
+      font-size: 40px;
+      margin: -20px 0 10px 0;
+}
+h2 {
+      color: #93C572;
+      font-size: 24px;
+      margin-bottom: 10px;
+}
+a {
+      color: #93C572;
+}
+select, input, button {
+      background-color: #303030;
+      border: 1px solid #303030;
+      padding: 5px;
+      height: 32px;
+      min-width: 32px;
+      margin-right: 2px;
+      margin-bottom: 2px;
+}
+input, textarea {
+      padding: 5px 10px;
+}
+textarea {
+      resize: none;
+      background: transparent;
+      border: 1px solid #303030;
+      width: 100%;
+}
+select:enabled:hover, input:not(:disabled):hover, button:not(:disabled):hover, textarea:hover {
+      border: 1px solid #D0D0D0;
+}
+select:required:invalid {
+      color: gray;
+}
+select:disabled, input:disabled, button:disabled {
+      opacity: 0.7;
+}
+option {
+      color: #D0D0D0;
+}
+.text-wide {
+      min-width: 250px;
+}
+.button-wide {
+      min-width: 100px;
+}
+.gray {
+      opacity: 0.5;
+}
+hr {
+      margin: 10px 0;
+}
+#preview {
+      user-select: none;
+}
+#focus {
+      padding: 0 5px;
+      background-color: #436929;
+}
