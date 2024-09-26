@@ -1,0 +1,19 @@
+Gestore di documentazione
+
+
+L'obiettivo del progetto è realizzare un sistema di gestione della documentazione relativa alle librerie standard di un linguaggio di programmazione immaginario simile a Java.
+
+Un sito web permette a chiunque di visualizzare la documentazione delle interfacce pubbliche. In aggiunta è presente una pagina riservata ai dipendenti della casa di sviluppo in cui gli utenti registrati possono visualizzare anche la documentazione delle implementazioni.
+Questi utenti si dividono in "visualizzatori", sviluppatori e amministratori. Gli sviluppatori possono aggiungere e modificare la documentazione all'interno dei package a loro assegnati. Gli amministratori possono inserire nuovi utenti e, in caso di necessità, modificare la documentazione in qualsiasi package. Per ogni utente vengono memorizzate le informazioni di base (nome, cognome, email, password, numero badge).
+
+Il sistema permette di inserire la documentazione per i tipi (interfacce, implementazioni, enumerazioni), i metodi, i costruttori, i parametri, i parametri di tipo, le costanti e i package. La documentazione consiste in elementi di testo arricchiti da informazioni aggiuntive, fra cui gli autori del codice, la data di ultima modifica ed eventuali link ad altri elementi. Inoltre il sistema modella la struttura del codice sottostante, memorizzando la visibilità ed eventuale staticità degli elementi, l'ereditarietà e la nidificazione dei tipi, nonché la gerarchia dei package.
+
+Riassumendo, le funzionalità offerte dalla piattaforma sono le seguenti:
+- Navigare i package visualizzando la documentazione e la struttura delle librerie
+- Aggiungere, modificare ed eliminare gli elementi che la compongono
+- Aggiungere, modificare ed eliminare gli utenti per i dipendenti
+
+Inoltre è possibile consultare informazioni aggregate:
+- Visualizzare l'elenco dei tipi che ereditano da uno specifico tipo
+- Visualizzare l'elenco dei riferimenti ad uno specifico elemento all'interno della documentazione
+- Ordinare i metodi di un tipo in base al numero di riferimenti all'interno della documentazione
